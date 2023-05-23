@@ -21,14 +21,14 @@ export function AuthContextProvider({ children }) {
     return signOut(auth);
   }
 
-  useContext(() => {
+  useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
     });
     return () => {
       unsubscribe();
     };
-  });
+  }, []);
 
   return (
     <AuthContext.Provider value={{ signUp, logIn, logOut, user }}>
