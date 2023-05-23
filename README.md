@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Cinephoria 🍿
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Cinephoria is a movies collection website that allows users to create their account with user login authentication and helps them to save their favorite movies! 
 
 ## Available Scripts
 
