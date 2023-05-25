@@ -1,6 +1,6 @@
 # Cinephoria 🍿
 
-Cinephoria is a Netflix-inspired UI movies-collection website that allows users to create their account with user login authentication, which then helps them to save their favorite movies to their account! 
+Cinephoria is a Netflix-inspired UI movies-collection website that allows users to create their account with Firebase login authentication, which then helps them to save/remove their favorite movies to/from their account! 
 
 ## Available Scripts
 
